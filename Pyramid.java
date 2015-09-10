@@ -6,7 +6,7 @@ public class Pyramid {
     public static void pyramidmaker(int level)
     {
   
-        for (int a = 1; a <= level; a++) { // Nested for loop stores the number of levels in the pyramid in a
+        for (int a = 1; a <= level; a++) { // Nested for loop stores the number of levels in the pyramid
             for (int b = 1; b <= level - a; b++)  { // Adds spacing to the pyramid
                 System.out.print("   "); 
             }
